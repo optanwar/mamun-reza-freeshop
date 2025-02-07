@@ -30,14 +30,14 @@ const Register = () => {
     }
 
 
-    if (user && user?.data) {
-      Swal.fire({
-        icon: "success",
-        title: successMessage,
-        showConfirmButton: false,
-        timer: 1500,
-      }).then(() => navigate("/welcome"));
-    }
+    // if (user && user?.data) {
+    //   Swal.fire({
+    //     icon: "success",
+    //     title: successMessage,
+    //     showConfirmButton: false,
+    //     timer: 1500,
+    //   }).then(() => navigate("/welcome"));
+    // }
 
 
     if (error) {
