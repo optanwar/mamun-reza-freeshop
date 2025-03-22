@@ -10,7 +10,7 @@ export default {
         poppins: ["Poppins", "serif"], 
       },
       backgroundImage: {
-        'login-bg': "url('./src/assets/logn-bg.svg')",
+        'login-bg': "url('/assets/logn-bg.svg')",
         'dashboard-vector': "url('./src/assets/dashboard-vector.svg')",
       },
       colors: {
