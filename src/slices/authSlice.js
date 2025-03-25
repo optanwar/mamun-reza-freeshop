@@ -4,7 +4,7 @@ import axiosInstance from '../axios/axiosInstance';
 // User Login
 export const loginUser = createAsyncThunk('auth/login', async (userCredentials, { rejectWithValue }) => {
   try {
-    const response = await axiosInstance.post('/admin/login', userCredentials);
+    const response = await axiosInstance.post('/user/login', userCredentials);
     return response.data;
   } catch (error) {
     return rejectWithValue(error.response?.data?.message || 'Login failed');
